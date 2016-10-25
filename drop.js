@@ -52,7 +52,6 @@
 			$.getJSON(url,function(data){ 
 				areaJson = data; 
 				province(); 
-				$('.province').find($('option:selected'))
 			}); 
 		}); 
 	};
